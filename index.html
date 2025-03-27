@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H.Ai - 分享数学、喵喵与NLP</title>
+  <link rel="stylesheet" href="https://zhheo.com/main.css">
+  <link rel="icon" type="image/x-icon" href="https://images.hoshinoai.xin/icon/web.webp">
+  <link rel="apple-touch-icon" href="https://images.hoshinoai.xin/icon/web.webp">
+  <meta name="apple-mobile-web-app-title" content="H.AiWeb">
+  <link rel="bookmark" href="https://images.hoshinoai.xin/icon/web.webp">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://images.hoshinoai.xin/icon/web.webp">
+  <meta name="description" content="寻找更贴近直觉的路径和方向，并用行动去突破，去改变，去创造。H.AiWeb所有产品的导航网站。">
+  <meta name="theme-color" content="#262627">
+  <link rel="stylesheet" href="https://cdn3.codesign.qq.com/icons/X2bzpZvRWkZkAaV/latest/iconfont.css">
+  <link rel="stylesheet" href="fontkukuyu.css">
+
+  <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?0a0cca83682044c405966961a1ff1b9b";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+
+<body id="body">
+  <div class="nav">
+    <div class="nav-content">
+      <div class="nav-left">
+        <a href="javascript:scrollToTopWithAnimation()" class="site-logo">
+          <img src="https://images.hoshinoai.xin/icon/web.webp" alt="logo" class="site-logo-img">
+          <span class="site-name">H.AiWeb</span>
+        </a>
+      </div>
+      <div class="nav-center">
+        <a href="https://web.hoshinoai.xin" class="nav-item">主页</a>
+        <a href="javascript:heoWeb.scrollTo('猫猫');" class="nav-item">猫猫</a>
+        <a href="javascript:heoWeb.scrollTo('媒体');" class="nav-item">媒体</a>
+        <a href="javascript:heoWeb.scrollTo('服务');" class="nav-item">服务</a>
+        <a href="javascript:heoWeb.scrollTo('主题');" class="nav-item">主题</a>
+      </div>
+      <div class="nav-right">
+        <a href="https://hoshinoai.xin/" class="nav-item" target="_blank">博客</a>
+        <a href="https://images.hoshinoai.xin" class="nav-item" target="_blank">图集</a>
+        <a class="nav-menu" id="nav-menu"><span class="heoblogIcon icon-menu-fill"></span></a>
+      </div>
+    </div>
+  </div>
+  <div class="menu-list" id="menu-list">
+    <a href="https://hoshinoai.xin/" class="nav-item" target="_blank">博客</a>
+    <a href="https://images.hoshinoai.xin" class="nav-item" target="_blank">图集</a>
+    <a href="https://web.hoshinoai.xin" class="nav-item">主页</a>
+    <a href="javascript:heoWeb.scrollTo('猫猫');" class="nav-item">猫猫</a>
+    <a href="javascript:heoWeb.scrollTo('媒体');" class="nav-item">媒体</a>
+    <a href="javascript:heoWeb.scrollTo('服务');" class="nav-item">服务</a>
+    <a href="javascript:heoWeb.scrollTo('主题');" class="nav-item">主题</a>
+
+  </div>
+  <!-- <div class="nav-banner">
+    <a class="nav-banner-text" href="https://hoshinoai.xin/p/671f98c8.html" target="_blank">敲木鱼 现已登录 App Store <span
+        class="heofont icon-arrow-right-s-line" style="font-size: 16px;"></span></a>
+  </div> -->
+
+  <div class="first-stack need-padding">
+    <div class="left-Introduce">
+      <div class="title-group">
+        <span class="title">HOSHINO AI <span class="subfont">H.AI</span></span>
+        <span class="title">DATA <span class="highlight">SCIENTIST</span></span>
+      </div>
+      <div class="discription">
+        <span class="discription-text">让猫猫大王主导<span class="inline-word">产品，</span><br>来构建令人难忘的<span
+            class="inline-word">体验。</span></span>
+      </div>
+      <div class="first-stack-links">
+        <a href="https://hoshinoai.xin/authors/hoshinoai" class="about-button" target="_blank">了解我</a>
+        <a href="https://github.com/Calculusai" class="about-button social-button" target="_blank">
+          <i class="heoblogIcon icon-github-line"></i>
+        </a>
+        <a href="https://space.bilibili.com/391460277" class="about-button social-button" target="_blank">
+          <i class="heoblogIcon icon-bilibili-line"></i>
+        </a>
+        <a href="https://qm.qq.com/q/v7uNClxPLa" class="about-button social-button" target="_blank">
+          <i class="iconfont icon-qq"></i>
+        </a>
+      </div>
+
+    </div>
+    <a href="https://hoshinoai.xin/authors/hoshinoai" class="right-stack" target="_blank">
+      <img class="banner-img" src="https://images.hoshinoai.xin/icon/web.webp" alt="banner" title="banner">
+    </a>
+  </div>
+
+  <div class="avatar-discription">
+
+    <span class="avatar-discription-text">
+      <p>
+        <b>当下多数人热衷于追求流行娱乐，消磨时间，获取短暂的快感。</b>
+        这样的娱乐方式往往优先考虑的是趣味性和即时性。而像深度思考、探索未知领域这种需要投入大量精力且难以迅速看到成果的活动，只有极少数人会主动参与，通常不被大众重视。<br><br>然而，在这个快节奏、追求表面乐趣的时代，HoshinoAi
+        其实更多地去 <b>关注 DND </b>，<b>深入钻研数学</b>，<b>倾心喜爱猫猫</b>。<b>研究 DND 的剧情架构与角色扮演的深度体验</b>、<b>探寻数学世界里的奇妙规律</b> 以及
+        <b>观察猫猫的可爱行为与情感表达</b>。这就是Ta所追求的。
+      </p>
+    </span>
+    <div class="avatar-info">
+      <img loading="lazy" class="avatar-image" src="./img/avatar.jpg">
+      <span class="avatar-name">H.Ai</span>
+      <span class="avatar-title">猫猫大王、冒险者小小博、九十九世纪最伟大的数学家</span>
+    </div>
+  </div>
+
+  <!-- Algorithm banner -->
+  <div class="product-banner">
+    <div class="banner-info need-padding">
+      <span class="tips">Algorithm</span>
+      <span class="title">Python<span class="punctuation"></span><br>C++算法<span class="punctuation"></span></span>
+      <div class="banner-discription-group">
+        <span class="description">多系列学习，支持自动切换语言<span class="inline-word">显示<span
+              class="punctuation">。</span></span></span>
+        <span class="description">轻松学习算法，多语言<span class="inline-word">支持<span class="punctuation">。</span></span></span>
+      </div>
+      <div class="link-group">
+        <a class="primary-button" href="http://algorithm.hoshinoai.xin/">立即访问</a>
+        <a class="second-link" href="https://hoshinoai.xin/authors/hoshinoai" target="_blank">访问开发者</a>
+      </div>
+    </div>
+    <div class="banner-pic">
+      <img class="banner-pic-img" src="/img/algorithmweb.webp" alt="banner image">
+    </div>
+  </div>
+
+  <div class="product-group need-padding" id="猫猫">
+    <h2 class="group-title">猫猫</h2>
+    <span class="group-description">致力于构建无广告的Rua喵小工具</span>
+    <div class="group-items">
+
+      <!-- 狐狸喵 -->
+      <div class="group-item" id="狐狸喵">
+        <a class="group-item-icon" target="_blank">
+          <img class="group-item-icon-img"
+            src="https://wimg.588ku.com/gif620/21/10/03/019b994adcd6e4053210aee7f8403cc7.gif" alt="product-icon"
+            title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" target="_blank">狐狸喵<sup class="hot">热门</sup></a>
+            <a class="discription" target="_blank">将世间万物化作喵喵</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" target="_blank">RUA</a>
+            <span class="linkbotton-tips">开发中</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 布偶喵 -->
+      <div class="group-item" id="布偶喵">
+        <a class="group-item-icon" target="_blank">
+          <img class="group-item-icon-img"
+            src="https://wimg.588ku.com/gif620/21/07/16/aa782f3daa743cd6766927c3efab77d9.gif" alt="product-icon"
+            title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" target="_blank">布偶喵</a>
+            <a class="discription" target="_blank">一举一动尽显超凡脱俗之美</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" target="_blank">RUA</a>
+            <span class="linkbotton-tips">开发中</span>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 愤怒喵 -->
+      <div class="group-item" id="愤怒喵">
+        <a class="group-item-icon" target="_blank">
+          <img class="group-item-icon-img"
+            src="https://wimg.588ku.com/gif620/24/03/08/de6673c35c8d63aa94a5396a2baa612e.gif" alt="product-icon"
+            title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" target="_blank">愤怒喵</a>
+            <a class="discription" target="_blank">似乎在宣泄着心中无尽的怒火</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" target="_blank">RUA</a>
+            <span class="linkbotton-tips">开发中</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 冲浪喵 -->
+      <div class="group-item" id="冲浪喵">
+        <a class="group-item-icon" target="_blank">
+          <img class="group-item-icon-img"
+            src="https://wimg.588ku.com/gif620/21/06/19/253c1ce62b6161ae1b401fd2e27929e7.gif" alt="product-icon"
+            title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" target="_blank">冲浪喵</a>
+            <a class="discription" target="_blank">每个转身都踩着海浪的鼓点</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" target="_blank">RUA</a>
+            <span class="linkbotton-tips">开发中</span>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <!-- 暗夜喵 -->
+  <div class="special-card" id="暗夜喵">
+    <div class="special-card-left">
+      <div class="tips">大事件</div>
+      <div class="title">暗夜喵正在开发中<br>现实增强</div>
+      <div class="discription">暗夜喵似一团流动的黑影，穿梭于废弃的街巷，灵敏的耳朵微微转动，警惕着周围的一切，唯有绿色的眼眸在黑暗中熠熠生辉。</div>
+      <div class="button-group">
+        <a class="button linkbutton" href="#暗夜喵">立即开Rua</a>
+        <span class="linkbotton-tips">开发中</span>
+      </div>
+    </div>
+    <img class="special-card-right"
+      src="https://wimg.588ku.com/gif620/21/10/22/874710d65bbd40360e61685e7989875d.gif"></img>
+  </div>
+
+
+  <!-- certd banner -->
+  <div class="product-banner" style="background-image: linear-gradient(180deg, #FFB6C1 0%, #FF1493 100%);">
+    <div class="banner-info need-padding">
+      <span class="tips" style="color: white; opacity: 0.6;">Certd证书管理</span>
+      <span class="title">全自动申请证书<span class="punctuation"></span><br>全自动部署证书<span class="punctuation"></span></span>
+      <div class="banner-discription-group">
+        <span class="description">让你的网站证书<span class="inline-word">永不过期<span class="punctuation">，</span></span></span>
+        <span class="description">开源、免费、全自动的<span class="inline-word">证书管理工具<span
+              class="punctuation">。</span></span></span>
+      </div>
+      <div class="link-group">
+        <a class="primary-button" href="https://certd.hoshinoai.xin/" target="_blank">访问项目</a>
+        <a class="second-link" href="https://certd.docmirror.cn/" target="_blank">搭建项目</a>
+      </div>
+    </div>
+    <div class="banner-pic">
+      <img class="banner-pic-img" src="https://images.hoshinoai.xin/web/certdweb.webp" alt="banner image">
+    </div>
+  </div>
+
+  <div class="product-group need-padding" id="媒体">
+    <h2 class="group-title">媒体</h2>
+    <span class="group-description">为互联网共享精神添砖加瓦</span>
+    <div class="group-items">
+
+      <!-- 博客 -->
+      <div class="group-item">
+        <a class="group-item-icon" href="https://hoshinoai.xin/" target="_blank">
+          <img class="group-item-icon-img" src="/img/icon.webp" alt="product-icon" title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="https://hoshinoai.xin/" target="_blank">博客<sup class="hot">热门</sup></a>
+            <a class="discription" href="https://hoshinoai.xin/" target="_blank">分享数学、猫猫与NLP猫猫</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="https://hoshinoai.xin/" target="_blank">访问</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 爱发电 -->
+      <div class="group-item">
+        <a class="group-item-icon" href="https://afdian.tv/a/hoshinoai0814" target="_blank">
+          <img class="group-item-icon-img" src="https://static.afdiancdn.com/static/img/logo/logo.png"
+            alt="product-icon" title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="https://afdian.tv/a/hoshinoai0814" target="_blank">爱发电<sup class="new">新品</sup></a>
+            <a class="discription" href="https://afdian.tv/a/hoshinoai0814" target="_blank">分享有趣又有料的文章与资源</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="https://afdian.tv/a/hoshinoai0814" target="_blank">访问</a>
+            <span class="linkbotton-tips">订阅制</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- QQ频道 -->
+      <div class="group-item">
+        <a class="group-item-icon" href="https://pd.qq.com/s/7drvsm213?businessType=5" target="_blank">
+          <img class="group-item-icon-img" src="https://guild-1251316161.file.myqcloud.com/common/share-logo.png"
+            alt="product-icon" title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="https://pd.qq.com/s/7drvsm213?businessType=5" target="_blank">QQ频道<sup
+                class="new">新品</sup></a>
+            <a class="discription" href="https://pd.qq.com/s/7drvsm213?businessType=5" target="_blank">一起分享，动手创造</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="https://pd.qq.com/s/7drvsm213?businessType=5" target="_blank">访问</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 图集 -->
+      <div class="group-item">
+        <a class="group-item-icon" href="https://images.hoshinoai.xin" target="_blank">
+          <img class="group-item-icon-img" src="https://images.hoshinoai.xin/icon/images.webp" alt="product-icon"
+            title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="https://images.hoshinoai.xin" target="_blank">图床</a>
+            <a class="discription" href="https://images.hoshinoai.xin" target="_blank">基于阿里云OSS技术</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="https://images.hoshinoai.xin" target="_blank">访问</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <div class="product-group need-padding" id="服务">
+    <h2 class="group-title">服务</h2>
+    <span class="group-description">为创作者提供所需的基础服务</span>
+    <div class="group-items">
+
+      <!-- Status -->
+      <div class="group-item">
+        <a class="group-item-icon" href="http://status.hoshinoai.xin/status/hoshinoai" target="_blank">
+          <img class="group-item-icon-img" src="https://images.hoshinoai.xin/icon/status.webp" alt="product-icon"
+            title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="http://status.hoshinoai.xin/status/hoshinoai" target="_blank">H.AiStatus<sup
+                class="hot">热门</sup></a>
+            <a class="discription" href="http://status.hoshinoai.xin/status/hoshinoai"
+              target="_blank">让博主享受到Status带来的便利</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="http://status.hoshinoai.xin/status/hoshinoai" target="_blank">访问</a>
+            <span class="linkbotton-tips">免费搭建</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Music -->
+      <div class="group-item">
+        <a class="group-item-icon" href="https://music.hoshinoai.xin/" target="_blank">
+          <img class="group-item-icon-img" src="https://images.hoshinoai.xin/icon/music.webp" alt="product-icon"
+            title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="https://music.hoshinoai.xin/" target="_blank">H.AiMusic<sup class="new">新品</sup></a>
+            <a class="discription" href="https://music.hoshinoai.xin/" target="_blank">高颜值的第三方网易云播放器</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="https://music.hoshinoai.xin/" target="_blank">访问</a>
+            <span class="linkbotton-tips">免费搭建</span>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- THYUU banner -->
+  <div class="product-banner" style="background-image: linear-gradient(180deg, #0F6AC1 0%, #002EA0 100%);">
+    <div class="banner-info need-padding">
+      <span class="tips" style="color: white; opacity: 0.6;">THYUU/星度主题魔改</span>
+      <span class="title">手把手教<span class="punctuation"></span><br>一步步学<span class="punctuation"></span></span>
+      <div class="banner-discription-group">
+        <span class="description">为THYUU/星度主题搭建提供便捷<span class="inline-word">通道<span
+              class="punctuation">，</span></span></span>
+        <span class="description">向大量博主提供喷涌的<span class="inline-word">灵感<span class="punctuation">。</span></span></span>
+      </div>
+      <div class="link-group">
+        <a class="primary-button" href="https://hoshinoai.xin/" target="_blank">访问项目</a>
+        <a class="second-link" href="https://theme.thyuu.com/" target="_blank">THYUU / 星度主题</a>
+      </div>
+    </div>
+    <div class="banner-pic">
+      <img class="banner-pic-img" src="/img/thyuuweb.webp" alt="banner image">
+    </div>
+  </div>
+
+  <div class="product-group need-padding" id="主题">
+    <h2 class="group-title">主题</h2>
+    <span class="group-description">帮助更多用户构建出非凡的网站</span>
+    <div class="group-items">
+
+      <!-- HoshinoAi -->
+      <div class="group-item">
+        <a class="group-item-icon" href="https://hoshinoai.xin/" target="_blank">
+          <img class="group-item-icon-img" src="/img/icon.webp" alt="product-icon" title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="https://hoshinoai.xin/" target="_blank">THYUU/星度主题</a>
+            <a class="discription" href="https://hoshinoai.xin/" target="_blank">主站 - 分享数学、猫猫与NLP</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="https://hoshinoai.xin/" target="_blank">访问</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- AiWeb -->
+      <div class="group-item">
+        <a class="group-item-icon" href="https://web.hoshinoai.xin/" target="_blank">
+          <img class="group-item-icon-img" src="https://images.hoshinoai.xin/icon/web.webp" alt="product-icon"
+            title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="https://web.hoshinoai.xin/" target="_blank">H.AiWeb</a>
+            <a class="discription" href="https://web.hoshinoai.xin/" target="_blank">纯静态多业务展示的个人主页主题</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="https://web.hoshinoai.xin/" target="_blank">访问</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- bb -->
+      <div class="group-item">
+        <a class="group-item-icon" href="http://algorithm.hoshinoai.xin/" target="_blank">
+          <img class="group-item-icon-img" src="https://images.hoshinoai.xin/icon/algorithm.webp" alt="product-icon"
+            title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="http://algorithm.hoshinoai.xin/" target="_blank">Algorithm</a>
+            <a class="discription" href="http://algorithm.hoshinoai.xin/" target="_blank">Algorithm探索算法实现中的精妙之处</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="http://algorithm.hoshinoai.xin/" target="_blank">访问</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="group-item">
+        <a class="group-item-icon" href="http://bb.hoshinoai.xin/" target="_blank">
+          <img class="group-item-icon-img" src="/img/icon.webp" alt="product-icon" title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="http://bb.hoshinoai.xin/" target="_blank">霸王菠萝猫</a>
+            <a class="discription" href="http://bb.hoshinoai.xin/" target="_blank">叶子喵专属</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="http://bb.hoshinoai.xin/" target="_blank">访问</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+  <!-- 表情banner -->
+
+
+  <!-- 5era banner -->
+  <div class="product-banner" style="background-image: linear-gradient(180deg, #830FC1 0%, #3D00A0 100%);">
+    <div class="banner-info need-padding">
+      <span class="tips">5era冒险者公会系列</span>
+      <span class="title">桌面TRPG<span class="punctuation"></span><br>龙与地下城<span class="punctuation"></span></span>
+      <div class="banner-discription-group">
+        <span class="description">备受喜爱的DND、COC<span class="inline-word">无限流<span
+              class="punctuation">，</span></span></span>
+        <span class="description">已帮助数百冒险者们更好的探索桌面TRPG<span class="inline-word">世界<span
+              class="punctuation">。</span></span></span>
+      </div>
+      <div class="link-group">
+        <a class="primary-button" href="https://5era.cn/">5era论坛</a>
+        <a class="second-link" href="https://calculus.xin/" target="_blank">5era官网</a>
+      </div>
+    </div>
+    <div class="banner-pic">
+      <img class="banner-pic-img" src="/img/5eraweb.webp" alt="banner image">
+    </div>
+  </div>
+
+
+
+  <div class="product-group need-padding" id="承接">
+    <h2 class="group-title">承接</h2>
+    <span class="group-description">5era冒险者公会</span>
+    <div class="group-items">
+
+      <!-- 5era论坛 -->
+      <div class="group-item">
+        <a class="group-item-icon" href="https://5era.cn/" target="_blank">
+          <img class="group-item-icon-img" src="https://5era.cn/wp-content/uploads/2025/01/dndlogo.png"
+            alt="product-icon" title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="https://5era.cn/wp-content/uploads/2025/01/dndlogo.png"
+              target="_blank">5era冒险者公会论坛</a>
+            <a class="discription" href="https://5era.cn/wp-content/uploads/2025/01/dndlogo.png" target="_blank">论坛 -
+              DND/COC/无限流</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="https://5era.cn/wp-content/uploads/2025/01/dndlogo.png" target="_blank">访问</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5era官网 -->
+      <div class="group-item">
+        <a class="group-item-icon" href="https://calculus.xin/" target="_blank">
+          <img class="group-item-icon-img" src="https://5era.cn/wp-content/uploads/2025/01/dndlogo.png"
+            alt="product-icon" title="product-icon">
+        </a>
+        <div class="group-info-group">
+          <div class="group-info">
+            <a class="title" href="https://calculus.xin/" target="_blank">5era冒险者公会官网</a>
+            <a class="discription" href="https://calculus.xin/" target="_blank">官网 - 玩家手册/城主手册</a>
+          </div>
+          <div class="group-info-button">
+            <a class="linkbutton" href="https://calculus.xin/" target="_blank">访问</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+  </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-content need-padding">
+      <span class="info">Copyright © 2023-2025 <a class="info" href="https://web.hoshinoai.xin"
+          target="_blank">H.AiWeb</a> 保留所有权利。</span>
+      <div class="info-group">
+        <a class="info" href="https://beian.miit.gov.cn/" target="_blank">新ICP备2024016179号-1</a>
+        <a class="info">基于HeoWeb实现</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="/js/simpleParallax.min.js"></script>
+<script src="/js/main.js"></script>
+
+</html>
